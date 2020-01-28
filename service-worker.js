@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/advent-of-code-2018-react/precache-manifest.2a2e8189852a1955b928fc9b8465f75c.js"
+  "/advent-of-code-2018-react/precache-manifest.718773eec725e9169b4733c457e6bd62.js"
 );
 
 self.addEventListener('message', (event) => {
