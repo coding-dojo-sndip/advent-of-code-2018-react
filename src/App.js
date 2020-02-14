@@ -4,7 +4,7 @@ import { readTextFile } from "./utils/utils";
 import Forest from './component/Forest'
 
 function App() {
-  const [forest, updateState] = useState(createForest("/18.txt"))
+  const [forest, updateState] = useState(createForest("18.txt"))
   const [counter, updateCounter] = useState(0)
   const onClick = () => {
     updateState(updateForest(forest))
